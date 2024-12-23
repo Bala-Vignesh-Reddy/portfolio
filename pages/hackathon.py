@@ -37,7 +37,7 @@ with t2:
     """,
       'Skills', 
       '`TensorFlow`, `YOLO` , `Object Detection`, `IOT`, `Instance Detection`',
-      'https://github.com/Bala-Vignesh-Reddy/HackNUthon-Unkils',
+      'https://github.com/Bala-Vignesh-Reddy/Hack4in-Unkils',
       'Smart Imaging Device',
       'Hack For India',
     img2)
