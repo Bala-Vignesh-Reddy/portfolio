@@ -1,0 +1,30 @@
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #5e5c5c; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 4px; 
+  margin-bottom: 5px; 
+  resize: vertical; 
+}
+
+input[type="text"],
+input[type="email"] {
+  height: 40%;
+}
+
+button[type="submit"] {
+  background-color: #379070;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
