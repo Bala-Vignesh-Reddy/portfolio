@@ -47,6 +47,46 @@ st.write('---')
 with st.container():
   col1,col2 = st.columns((1, 2))
   with col1:
+    st.image(Image.open('./assests/p6.jpg'))
+  with col2:
+    st.subheader("OpenAI's CLIP DEMO")
+    st.write("""
+    A streamlit app where user can see the magic of CLIP model. Various tasks like zero shot classification, image clustering, text clustering and semantic search..
+    """)
+    st.markdown('`Python`, `CLIP`, `Streamlit`, `transformers`, `scikit-learn`')
+
+    g4 = '[GitHub](https://github.com/Bala-Vignesh-Reddy/CLIP-ALL-IN-ONE)'
+    st.markdown(g4)
+
+st.write('---')
+
+with st.container():
+  col1,col2 = st.columns((1, 2))
+  with col1:
+    st.image(Image.open('./assests/p5.jpg'))
+  with col2:
+    st.subheader("Basic Semantic Search")
+    st.write("""
+    A basic semantic search implmentation using openai CLIP model. Image's are converted into embeddings and stored locally and then streamlit app is created where depending on the text query, the images are returned.
+    """)
+
+    st.markdown('`Python`, `CLIP`, `Streamlit`, `transformers`, `scikit-learn`, `unsplash`')
+
+    col1, col2 = st.columns((1,2))
+    with col1:
+        g5 = '[GitHub](https://github.com/Bala-Vignesh-Reddy/Basic_Semantic_Implementation)'
+        st.markdown(g5)
+    with col2:
+        g6 = '[Live-Site](https://basic-semantic-search.streamlit.app/)'
+        st.markdown(g6)
+  
+st.write('---')
+
+
+
+with st.container():
+  col1,col2 = st.columns((1, 2))
+  with col1:
     st.image(Image.open('./assests/p3.png'))
   with col2:
     st.subheader("Deadly Animal Detection")
@@ -79,3 +119,4 @@ with st.container():
 st.write('---')
 
 st.subheader("More Projects are Cooking and left to add in list ...")
+
